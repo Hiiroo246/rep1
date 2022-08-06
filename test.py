@@ -1,3 +1,4 @@
+import streamlit as st
 from cryptography.fernet import Fernet
 
 # we will be encrypting the below string.
