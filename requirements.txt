@@ -1,0 +1,3 @@
+cryptography
+Fernet
+streamlit
