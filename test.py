@@ -1,6 +1,5 @@
-import streamlit as st
 from cryptography.fernet import Fernet
-
+import streamlit as st
 
 password = st.text_input("Password: ")
 
