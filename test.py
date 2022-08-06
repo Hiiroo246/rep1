@@ -1,6 +1,7 @@
 from cryptography.fernet import Fernet
 import streamlit as st
 
+st.title("Definisi singkat")
 st.write("Password atau kata sandi adalah mekanisme keamanan dasar yang terdiri dari frase tahap rahasia yang dibuat dengan menggunakan karakter alfabet, numerik, alfanumerik dan simbolik, atau kombinasi. \n\n Mekanisme keamanan yang digunakan pada password adalah dengan teknik enkripsi. \n\n Enkripsi adalah teknik merubah informasi awal (password) ke dalam bentuk yang tidak terbaca dan dapat dibaca kembali dengan bantuan key (kunci). Secara sederhana, yang mengetahui isi dari password hanyalah programmer yang membuat sistem key-enkripsi-dekripsi\n\n")
 
 password = st.text_input("Password: ")
